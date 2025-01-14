@@ -1,0 +1,107 @@
+@import url('index.css'); /* Import common styles */
+
+.background {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.background h1 {
+    color: #623b27;
+    font-size: 2.5rem;
+}
+
+.background p {
+    color: #333;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.owner-profile {
+    text-align: center;
+    padding: 70px 40px;
+}
+
+.owner-profile h2 {
+    color: #623b27;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 40px;
+    background: #f8f3eb;
+    border-radius: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details {
+    text-align: left;
+    color: #333;
+}
+
+.profile-details h3 {
+    color: #623b27;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.profile-details p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.owner-photo {
+    max-width: 170px;
+    border-radius: 50%;
+    border: 3px solid #f8de7e;
+}
+
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .owner-photo {
+        margin-bottom: 15px;
+    }
+
+    .profile-details {
+        text-align: center;
+    }
+}
+
+/* Styling the table */ 
+table { 
+    width: 70%; 
+    border-collapse: collapse; 
+    margin: 20px auto; 
+    font-family: Arial, sans-serif; 
+  } 
+  table, th, td { 
+    border: 1px solid #0e0d0d; 
+  } 
+
+  th, td { 
+    padding: 12px; 
+    text-align: left; 
+  } 
+
+  th { 
+    background-color: #f38c06; 
+    color: white; 
+  } 
+
+  td { 
+    background-color: #f5c78b; 
+    color: rgb(0, 0, 0); 
+  }
+
